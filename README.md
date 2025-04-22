@@ -1,9 +1,7 @@
 # NV-User-Dashboard
 
  1. README.md (Full Documentation)
-markdown
-Copy
-Edit
+
 # 🚀 NVIDIA - User Performance Dashboard (Power BI)
 
 This project presents a real-time **User Performance Dashboard** built in **Power BI**, designed to monitor and evaluate annotation workforce efficiency and quality. It visualizes metrics like scorecards, active time, productivity, LA quality, and efficiency across users in a given timeframe.
@@ -155,10 +153,7 @@ Edit
 🔐 Confidentiality Notice
 This dashboard is built on dummy/test data representative of internal operational structures. Ensure production deployment complies with your organization's data sharing policies.
 
-pgsql
-Copy
-Edit
-
+Check out this Dashboard link (https://app.powerbi.com/links/WQpKUaQ2YN?ctid=e6a3599a-65d0-4a43-afd7-783974125174&pbi_source=linkShare)
 ---
 
 ## 📂 2. `DAX-Formulas/measures.txt`
@@ -189,9 +184,7 @@ CALCULATE(
     )
 )
 🧼 3. PowerQuery-Steps/transform_steps.txt
-text
-Copy
-Edit
+
 1. Connected to Excel file: "UserPerformanceData.xlsx"
 2. Removed empty rows and columns
 3. Changed data types:
